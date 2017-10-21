@@ -15,6 +15,7 @@
 		58A608571F9776BF00ADFF7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A608561F9776BF00ADFF7E /* main.m */; };
 		58A608611F9776BF00ADFF7E /* CustomInputSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A608601F9776BF00ADFF7E /* CustomInputSourceTests.m */; };
 		58A6086C1F9776BF00ADFF7E /* CustomInputSourceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6086B1F9776BF00ADFF7E /* CustomInputSourceUITests.m */; };
+		58A6087B1F9776EF00ADFF7E /* RunLoopSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6087A1F9776EF00ADFF7E /* RunLoopSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		58A608671F9776BF00ADFF7E /* CustomInputSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomInputSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A6086B1F9776BF00ADFF7E /* CustomInputSourceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomInputSourceUITests.m; sourceTree = "<group>"; };
 		58A6086D1F9776BF00ADFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A608791F9776EF00ADFF7E /* RunLoopSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopSource.h; sourceTree = "<group>"; };
+		58A6087A1F9776EF00ADFF7E /* RunLoopSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				58A608481F9776BE00ADFF7E /* AppDelegate.m */,
 				58A6084A1F9776BE00ADFF7E /* ViewController.h */,
 				58A6084B1F9776BE00ADFF7E /* ViewController.m */,
+				58A608791F9776EF00ADFF7E /* RunLoopSource.h */,
+				58A6087A1F9776EF00ADFF7E /* RunLoopSource.m */,
 				58A6084D1F9776BE00ADFF7E /* Main.storyboard */,
 				58A608501F9776BE00ADFF7E /* Assets.xcassets */,
 				58A608521F9776BE00ADFF7E /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				58A6084C1F9776BE00ADFF7E /* ViewController.m in Sources */,
 				58A608571F9776BF00ADFF7E /* main.m in Sources */,
+				58A6087B1F9776EF00ADFF7E /* RunLoopSource.m in Sources */,
 				58A608491F9776BE00ADFF7E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
