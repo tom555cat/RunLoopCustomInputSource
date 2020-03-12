@@ -8,14 +8,14 @@
 
 #import "AppDelegate.h"
 #import "RunLoopSource.h"
-#import "ViewController.h"
+#import "CustomSourceViewController.h"
 
 void RunLoopSourceScheduleRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
 {
     RunLoopSource* obj = CFBridgingRelease(info);
     RunLoopContext* theContext = [[RunLoopContext alloc] initWithSource:obj andLoop:rl];
     
-    [ViewController performSelectorOnMainThread:@selector(registerSource:) withObject:theContext waitUntilDone:NO];
+    [CustomSourceViewController performSelectorOnMainThread:@selector(registerSource:) withObject:theContext waitUntilDone:NO];
 }
 
 void RunLoopSourcePerformRoutine (void *info)
@@ -29,7 +29,7 @@ void RunLoopSourceCancelRoutine (void *info, CFRunLoopRef rl, CFStringRef mode)
     RunLoopSource* obj = CFBridgingRelease(info);
     RunLoopContext* theContext = [[RunLoopContext alloc] initWithSource:obj andLoop:rl];
     
-    [ViewController performSelectorOnMainThread:@selector(removeSource:) withObject:theContext waitUntilDone:YES];
+    [CustomSourceViewController performSelectorOnMainThread:@selector(removeSource:) withObject:theContext waitUntilDone:YES];
 }
 
 @implementation RunLoopSource

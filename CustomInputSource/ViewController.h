@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RunLoopSource.h"
 
 @interface ViewController : UIViewController
-
-+ (void)registerSource:(RunLoopContext*)sourceInfo;
-
-+ (void)removeSource:(RunLoopContext*)sourceInfo;
 
 @end
 

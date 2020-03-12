@@ -26,12 +26,15 @@ static RunLoopContext *context;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.navigationItem.title = @"自定义source0";
+    
     [self launch];
     
     self.button = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.button.frame = CGRectMake(0, 0, 100, 100);
+    self.button.frame = CGRectMake(200, 200, 100, 100);
     [self.button setTitle:@"fire Signal" forState:UIControlStateNormal];
     [self.button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    self.button.backgroundColor = [UIColor redColor];
     [self.button addTarget:self action:@selector(fireSignal:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.button];
 }
