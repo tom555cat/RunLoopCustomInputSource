@@ -16,6 +16,9 @@
 		58A608611F9776BF00ADFF7E /* CustomInputSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A608601F9776BF00ADFF7E /* CustomInputSourceTests.m */; };
 		58A6086C1F9776BF00ADFF7E /* CustomInputSourceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6086B1F9776BF00ADFF7E /* CustomInputSourceUITests.m */; };
 		58A6087B1F9776EF00ADFF7E /* RunLoopSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6087A1F9776EF00ADFF7E /* RunLoopSource.m */; };
+		8E4077B7241A357A00E68636 /* CustomSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077B6241A357A00E68636 /* CustomSourceViewController.m */; };
+		8E4077B8241A357A00E68636 /* CustomSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077B6241A357A00E68636 /* CustomSourceViewController.m */; };
+		8E4077B9241A357A00E68636 /* CustomSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077B6241A357A00E68636 /* CustomSourceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,8 @@
 		58A6086D1F9776BF00ADFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58A608791F9776EF00ADFF7E /* RunLoopSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopSource.h; sourceTree = "<group>"; };
 		58A6087A1F9776EF00ADFF7E /* RunLoopSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopSource.m; sourceTree = "<group>"; };
+		8E4077B5241A357A00E68636 /* CustomSourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSourceViewController.h; sourceTree = "<group>"; };
+		8E4077B6241A357A00E68636 /* CustomSourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSourceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,8 @@
 				58A608521F9776BE00ADFF7E /* LaunchScreen.storyboard */,
 				58A608551F9776BF00ADFF7E /* Info.plist */,
 				58A608561F9776BF00ADFF7E /* main.m */,
+				8E4077B5241A357A00E68636 /* CustomSourceViewController.h */,
+				8E4077B6241A357A00E68636 /* CustomSourceViewController.m */,
 			);
 			path = CustomInputSource;
 			sourceTree = "<group>";
@@ -274,6 +281,7 @@
 				58A608571F9776BF00ADFF7E /* main.m in Sources */,
 				58A6087B1F9776EF00ADFF7E /* RunLoopSource.m in Sources */,
 				58A608491F9776BE00ADFF7E /* AppDelegate.m in Sources */,
+				8E4077B7241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4077B8241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 				58A608611F9776BF00ADFF7E /* CustomInputSourceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4077B9241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 				58A6086C1F9776BF00ADFF7E /* CustomInputSourceUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
