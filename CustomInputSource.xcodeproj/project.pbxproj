@@ -19,6 +19,12 @@
 		8E4077B7241A357A00E68636 /* CustomSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077B6241A357A00E68636 /* CustomSourceViewController.m */; };
 		8E4077B8241A357A00E68636 /* CustomSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077B6241A357A00E68636 /* CustomSourceViewController.m */; };
 		8E4077B9241A357A00E68636 /* CustomSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077B6241A357A00E68636 /* CustomSourceViewController.m */; };
+		8E4077C1241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C0241A3B8300E68636 /* ThreadKeepAliveViewController.m */; };
+		8E4077C2241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C0241A3B8300E68636 /* ThreadKeepAliveViewController.m */; };
+		8E4077C3241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C0241A3B8300E68636 /* ThreadKeepAliveViewController.m */; };
+		8E4077C7241A3C4F00E68636 /* XCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C6241A3C4F00E68636 /* XCThread.m */; };
+		8E4077C8241A3C4F00E68636 /* XCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C6241A3C4F00E68636 /* XCThread.m */; };
+		8E4077C9241A3C4F00E68636 /* XCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C6241A3C4F00E68636 /* XCThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,10 @@
 		58A6087A1F9776EF00ADFF7E /* RunLoopSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopSource.m; sourceTree = "<group>"; };
 		8E4077B5241A357A00E68636 /* CustomSourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSourceViewController.h; sourceTree = "<group>"; };
 		8E4077B6241A357A00E68636 /* CustomSourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSourceViewController.m; sourceTree = "<group>"; };
+		8E4077BF241A3B8300E68636 /* ThreadKeepAliveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadKeepAliveViewController.h; sourceTree = "<group>"; };
+		8E4077C0241A3B8300E68636 /* ThreadKeepAliveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadKeepAliveViewController.m; sourceTree = "<group>"; };
+		8E4077C5241A3C4F00E68636 /* XCThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCThread.h; sourceTree = "<group>"; };
+		8E4077C6241A3C4F00E68636 /* XCThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 		58A608461F9776BE00ADFF7E /* CustomInputSource */ = {
 			isa = PBXGroup;
 			children = (
+				8E4077C4241A3BD600E68636 /* ThreadKeepAlive */,
 				58A608471F9776BE00ADFF7E /* AppDelegate.h */,
 				58A608481F9776BE00ADFF7E /* AppDelegate.m */,
 				58A6084A1F9776BE00ADFF7E /* ViewController.h */,
@@ -122,6 +133,8 @@
 				58A608561F9776BF00ADFF7E /* main.m */,
 				8E4077B5241A357A00E68636 /* CustomSourceViewController.h */,
 				8E4077B6241A357A00E68636 /* CustomSourceViewController.m */,
+				8E4077BF241A3B8300E68636 /* ThreadKeepAliveViewController.h */,
+				8E4077C0241A3B8300E68636 /* ThreadKeepAliveViewController.m */,
 			);
 			path = CustomInputSource;
 			sourceTree = "<group>";
@@ -142,6 +155,15 @@
 				58A6086D1F9776BF00ADFF7E /* Info.plist */,
 			);
 			path = CustomInputSourceUITests;
+			sourceTree = "<group>";
+		};
+		8E4077C4241A3BD600E68636 /* ThreadKeepAlive */ = {
+			isa = PBXGroup;
+			children = (
+				8E4077C5241A3C4F00E68636 /* XCThread.h */,
+				8E4077C6241A3C4F00E68636 /* XCThread.m */,
+			);
+			path = ThreadKeepAlive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +302,9 @@
 				58A6084C1F9776BE00ADFF7E /* ViewController.m in Sources */,
 				58A608571F9776BF00ADFF7E /* main.m in Sources */,
 				58A6087B1F9776EF00ADFF7E /* RunLoopSource.m in Sources */,
+				8E4077C1241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */,
 				58A608491F9776BE00ADFF7E /* AppDelegate.m in Sources */,
+				8E4077C7241A3C4F00E68636 /* XCThread.m in Sources */,
 				8E4077B7241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4077C8241A3C4F00E68636 /* XCThread.m in Sources */,
+				8E4077C2241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */,
 				8E4077B8241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 				58A608611F9776BF00ADFF7E /* CustomInputSourceTests.m in Sources */,
 			);
@@ -298,6 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4077C9241A3C4F00E68636 /* XCThread.m in Sources */,
+				8E4077C3241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */,
 				8E4077B9241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 				58A6086C1F9776BF00ADFF7E /* CustomInputSourceUITests.m in Sources */,
 			);

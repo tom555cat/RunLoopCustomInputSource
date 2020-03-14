@@ -26,6 +26,14 @@
                                     <segue destination="ChE-gF-KO1" kind="show" id="g0k-JV-WKk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8J2-gh-VQn">
+                                <rect key="frame" x="156" y="234" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="线程保活"/>
+                                <connections>
+                                    <segue destination="Lek-b4-1qb" kind="show" id="gtA-LN-4PT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,7 +57,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iry-R0-yvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1764" y="-25.637181409295355"/>
+            <point key="canvasLocation" x="2007" y="-279"/>
+        </scene>
+        <!--Thread Keep Alive View Controller-->
+        <scene sceneID="Am7-6B-MKR">
+            <objects>
+                <viewController id="Lek-b4-1qb" customClass="ThreadKeepAliveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kua-sz-DTo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWM-FU-TVk">
+                                <rect key="frame" x="146" y="128" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="fire source0"/>
+                                <connections>
+                                    <action selector="fireSource0BtnClick:" destination="Lek-b4-1qb" eventType="touchUpInside" id="j0R-SB-plg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LY7-0R-vlB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fSY-Dm-Ly7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2005.5999999999999" y="397.15142428785612"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TBP-D9-mwJ">
