@@ -25,6 +25,9 @@
 		8E4077C7241A3C4F00E68636 /* XCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C6241A3C4F00E68636 /* XCThread.m */; };
 		8E4077C8241A3C4F00E68636 /* XCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C6241A3C4F00E68636 /* XCThread.m */; };
 		8E4077C9241A3C4F00E68636 /* XCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4077C6241A3C4F00E68636 /* XCThread.m */; };
+		8EC96B002424619A004A9898 /* TimerAwakeRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC96AFF2424619A004A9898 /* TimerAwakeRunLoopViewController.m */; };
+		8EC96B012424619A004A9898 /* TimerAwakeRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC96AFF2424619A004A9898 /* TimerAwakeRunLoopViewController.m */; };
+		8EC96B022424619A004A9898 /* TimerAwakeRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC96AFF2424619A004A9898 /* TimerAwakeRunLoopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,8 @@
 		8E4077C0241A3B8300E68636 /* ThreadKeepAliveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadKeepAliveViewController.m; sourceTree = "<group>"; };
 		8E4077C5241A3C4F00E68636 /* XCThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCThread.h; sourceTree = "<group>"; };
 		8E4077C6241A3C4F00E68636 /* XCThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCThread.m; sourceTree = "<group>"; };
+		8EC96AFE2424619A004A9898 /* TimerAwakeRunLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerAwakeRunLoopViewController.h; sourceTree = "<group>"; };
+		8EC96AFF2424619A004A9898 /* TimerAwakeRunLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAwakeRunLoopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,8 @@
 				8E4077B6241A357A00E68636 /* CustomSourceViewController.m */,
 				8E4077BF241A3B8300E68636 /* ThreadKeepAliveViewController.h */,
 				8E4077C0241A3B8300E68636 /* ThreadKeepAliveViewController.m */,
+				8EC96AFE2424619A004A9898 /* TimerAwakeRunLoopViewController.h */,
+				8EC96AFF2424619A004A9898 /* TimerAwakeRunLoopViewController.m */,
 			);
 			path = CustomInputSource;
 			sourceTree = "<group>";
@@ -303,6 +310,7 @@
 				58A608571F9776BF00ADFF7E /* main.m in Sources */,
 				58A6087B1F9776EF00ADFF7E /* RunLoopSource.m in Sources */,
 				8E4077C1241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */,
+				8EC96B002424619A004A9898 /* TimerAwakeRunLoopViewController.m in Sources */,
 				58A608491F9776BE00ADFF7E /* AppDelegate.m in Sources */,
 				8E4077C7241A3C4F00E68636 /* XCThread.m in Sources */,
 				8E4077B7241A357A00E68636 /* CustomSourceViewController.m in Sources */,
@@ -314,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4077C8241A3C4F00E68636 /* XCThread.m in Sources */,
+				8EC96B012424619A004A9898 /* TimerAwakeRunLoopViewController.m in Sources */,
 				8E4077C2241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */,
 				8E4077B8241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 				58A608611F9776BF00ADFF7E /* CustomInputSourceTests.m in Sources */,
@@ -325,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4077C9241A3C4F00E68636 /* XCThread.m in Sources */,
+				8EC96B022424619A004A9898 /* TimerAwakeRunLoopViewController.m in Sources */,
 				8E4077C3241A3B8300E68636 /* ThreadKeepAliveViewController.m in Sources */,
 				8E4077B9241A357A00E68636 /* CustomSourceViewController.m in Sources */,
 				58A6086C1F9776BF00ADFF7E /* CustomInputSourceUITests.m in Sources */,
